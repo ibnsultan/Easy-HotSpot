@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<?php if ( !isset($_SESSION) ) session_start(); ?>
+<?php if ( !isset($_SESSION) ) @session_start(); ?>
 <?php  error_reporting(E_ALL);
 ini_set('display_errors', 1); ?>
 <div class="container">
@@ -94,4 +94,5 @@ ini_set('display_errors', 1); ?>
 			</div>
 		</div>
 	</div>
+
 </div>
